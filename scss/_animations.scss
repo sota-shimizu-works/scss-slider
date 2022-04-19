@@ -1,0 +1,18 @@
+@keyframes slide-animation{
+
+    25% {
+        left: calc(0px - ((400px * 1.1618) * 1));
+    }
+
+    50% {
+        left: calc(0px - ((400px * 1.1618) * 2));
+    }
+
+    75% {
+        left: calc(0px - ((400px * 1.1618) * 3));
+    }
+
+    100% {
+        left: calc(0px - ((400px * 1.1618) * 4));
+    }
+}
